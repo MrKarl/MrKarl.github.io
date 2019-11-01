@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Karl Panki Park</title>
+</head>
+<body>
+
+  <h1>Git Repository is moved.</h1>
+  <h3>Redirect to the new page(https://karl-park.github.io)</h3>
+
+  <script>
+    setTimeout(function() {
+      var fullUrl = window.location.href;
+      var domain = window.location.origin;
+      var pathWithParamAndQuery = fullUrl.slice(domain.length)
+      window.location.replace(`https://karl-park.github.io${pathWithParamAndQuery}`);
+    }, 1000);
+  </script>
+
+</body>
+</html>
